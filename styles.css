@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.info {
+  font-size: 35px;
+  font-weight: 600;
+  color: rgb(16, 28, 43);
+  padding: 15px;
+}
+
+.time {
+  width: 80%;
+  height: 50px;
+  background-color: rgba(138, 168, 223, 0.322);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.warning {
+  color: red;
+  padding: 10px 0;
+  font-weight: 500;
+  display: none;
+}
+.qs {
+  width: 80%;
+  height: calc(100% - 50px);
+  margin-top: 20px;
+  background-color: rgba(210, 233, 255, 0.822);
+}
+
+.sec {
+  width: 100%;
+  height: auto;
+  padding: 20px 10px;
+}
+
+.sec .heading {
+  color: rgb(18, 28, 39);
+}
+
+.sec .q {
+  margin: 10px 20px;
+}
+
+.sec .q p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.sec .q textarea {
+  outline: none;
+  border-style: none;
+  background-color: white;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-top: 5px;
+  width: 100%;
+  min-height: 70px;
+}
+
+button {
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rgb(45, 129, 255);
+  font-weight: 500;
+  font-size: 17px;
+  color: white;
+  outline: none;
+  border-style: none;
+  margin: 10px 30px;
+  cursor: pointer;
+}
+
+.warn-pop,
+.warn-pop2 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.432);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.warn-pop .warn,
+.warn-pop2 .warn2 {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+ 
+.warn-pop2 .warn2 {
+  height: 250px;
+  width: 400px;
+  padding: 10px 20px;
+}
+
+.warn-pop2 .warn2 p {
+  margin: 20px 0;
+}
